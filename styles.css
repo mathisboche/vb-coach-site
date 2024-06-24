@@ -48,28 +48,6 @@ header h2 {
     margin-bottom: 1rem;
 }
 
-nav ul {
-    list-style: none;
-    padding: 1rem 0;
-    background-color: #2a4d69;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #a2d5f2;
-}
-
 /* Main content styles */
 main {
     padding: 2rem;
@@ -92,31 +70,7 @@ h2 {
 
 p {
     margin: 1rem 0;
-}
-
-/* Service and testimonial styles */
-.service, .testimonial {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.service img, .testimonial img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.service img:hover, .testimonial img:hover {
-    transform: scale(1.05);
-}
-
-.service h3, .testimonial p {
-    margin-top: 1rem;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
 }
 
 /* Contact section styles */
@@ -140,17 +94,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
     font-size: 0.875rem;
 }
 
 @media (min-width: 768px) {
-    nav ul li {
-        margin: 0 2rem;
-    }
-
     header h1 {
         font-size: 3rem;
     }
