@@ -17,4 +17,4 @@ Ce site web est conçu pour Vlada BOCHE, coach de vie. Il présente ses services
 
 ## Auteur
 
-Créé par [Votre Nom].
+Créé par Mathis.
