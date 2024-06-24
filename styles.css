@@ -73,6 +73,43 @@ p {
     font-size: 1.125rem;
 }
 
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #2a4d69;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1e3a57;
+}
+
 /* Contact section styles */
 #contact {
     text-align: center;

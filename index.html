@@ -16,8 +16,22 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>Pour plus d'informations ou pour réserver une session, veuillez me contacter à l'adresse suivante :</p>
-            <p>Email : <a href="mailto:vlada.boche@yahoo.fr">vlada.boche@yahoo.fr</a></p>
-            <p>Téléphone : +33 6 18 68 88 43</p>
+            <p>Email : <a href="mailto:vlada.boche@example.com">vlada.boche@example.com</a></p>
+            <p>Téléphone : +33 6 12 34 56 78</p>
+
+            <h2>Formulaire de Contact</h2>
+            <form action="https://formspree.io/f/mqazzlwk" method="POST">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
     </main>
     <footer>
