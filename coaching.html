@@ -175,7 +175,7 @@
         <h2>Réservez votre séance gratuite dès maintenant !</h2>
         <div class="contact-container">
             <div class="contact-form">
-                <form action="script_de_traitement.php" method="post">
+                <form action="https://formspree.io/f/mqazzlwk" method="POST">
                     <label for="name">Nom :</label>
                     <input type="text" id="name" name="name" required>
                 
@@ -187,6 +187,9 @@
                 
                     <label for="message">Message :</label>
                     <textarea id="message" name="message" required></textarea>
+                
+                    <!-- Champ caché pour rediriger vers une page de remerciement -->
+                    <input type="hidden" name="_redirect" value="https://vladaboche.fr/merci.html">
                 
                     <button type="submit">Envoyer</button>
                 </form>
