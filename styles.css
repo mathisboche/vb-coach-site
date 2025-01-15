@@ -1,24 +1,32 @@
-/* Import Google Fonts */
+/* ----------------------------------------------------
+   Import Google Fonts
+------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap');
 
-/* Reset some basic styles for cross-browser compatibility */
+/* ----------------------------------------------------
+   Reset de base
+------------------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base font styles */
+/* ----------------------------------------------------
+   Styles de base
+------------------------------------------------------- */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* gris clair */
     color: #333;
     line-height: 1.6;
 }
 
-/* Header styles */
+/* ----------------------------------------------------
+   Header
+------------------------------------------------------- */
 header {
-    background-color: #2a4d69;
+    background-color: #2a4d69;  /* bleu-gris */
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -30,7 +38,7 @@ header .profile-img {
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    transition: transform 0.3s; /* Garde la transition du hover */
 }
 
 header .profile-img:hover {
@@ -46,10 +54,12 @@ header h1 {
 header h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #a2d5f2;
+    color: #a2d5f2; /* bleu clair */
 }
 
-/* Main content styles */
+/* ----------------------------------------------------
+   Main
+------------------------------------------------------- */
 main {
     padding: 2rem;
     background-color: #ffffff;
@@ -59,6 +69,7 @@ section {
     margin-bottom: 3rem;
 }
 
+/* Titres de section */
 h2 {
     color: #2a4d69;
     font-family: 'Playfair Display', serif;
@@ -69,12 +80,41 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
+/* Paragraphe */
 p {
     margin: 1rem 0;
     font-size: 1.125rem;
 }
 
-/* Form styles */
+/* ----------------------------------------------------
+   Section Contact
+------------------------------------------------------- */
+#contact {
+    text-align: center;
+}
+#contact a {
+    color: #2a4d69;
+    text-decoration: none;
+    font-weight: 600;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Petit ajustement pour les icônes dans #contact */
+#contact i {
+    margin-right: 0.5rem;
+    color: #2a4d69;
+}
+
+/* ----------------------------------------------------
+   Formulaire
+------------------------------------------------------- */
+#formulaire {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -87,7 +127,8 @@ form label {
     font-weight: bold;
 }
 
-form input, form textarea {
+form input, 
+form textarea {
     margin-top: 0.5rem;
     padding: 0.5rem;
     font-size: 1rem;
@@ -111,22 +152,32 @@ form button:hover {
     background-color: #1e3a57;
 }
 
-/* Contact section styles */
-#contact {
+/* ----------------------------------------------------
+   Réseaux Sociaux
+------------------------------------------------------- */
+#reseaux {
     text-align: center;
 }
 
-#contact a {
+#reseaux i {
+    margin-right: 0.5rem;
+    color: #2a4d69; /* Même couleur que les titres pour rester cohérent */
+}
+
+/* Liens réseaux sociaux identiques à #contact */
+#reseaux a {
     color: #2a4d69;
     text-decoration: none;
     font-weight: 600;
 }
 
-#contact a:hover {
+#reseaux a:hover {
     text-decoration: underline;
 }
 
-/* Footer styles */
+/* ----------------------------------------------------
+   Footer
+------------------------------------------------------- */
 footer {
     background-color: #2a4d69;
     color: #fff;
@@ -135,6 +186,9 @@ footer {
     font-size: 0.875rem;
 }
 
+/* ----------------------------------------------------
+   Media Queries
+------------------------------------------------------- */
 @media (min-width: 768px) {
     header h1 {
         font-size: 3rem;
