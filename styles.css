@@ -57,6 +57,15 @@ header h2 {
     color: #a2d5f2; /* bleu clair */
 }
 
+header h2 .subtitle {
+    display: block; /* Place sur une nouvelle ligne */
+    font-size: 1.25rem; /* Taille légèrement plus petite */
+    color: #a2d5f2; /* Même bleu clair que le reste */
+    font-weight: 400; /* Moins gras pour différencier */
+    margin-top: 0.5rem;
+}
+
+
 /* ----------------------------------------------------
    Main
 ------------------------------------------------------- */
