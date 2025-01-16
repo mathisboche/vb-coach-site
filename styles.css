@@ -57,13 +57,16 @@ header h2 {
     color: #a2d5f2; /* bleu clair */
 }
 
-header h2 .subtitle {
-    display: block; /* Place sur une nouvelle ligne */
-    font-size: 1.25rem; /* Taille légèrement plus petite */
-    color: #a2d5f2; /* Même bleu clair que le reste */
-    font-weight: 400; /* Moins gras pour différencier */
-    margin-top: 0.5rem;
-}
+/* Exemple de style minimal pour le nouveau sous-titre */
+.sous-titre {
+    /* Pas de bordure et ajustement éventuel du style */
+    border: none;
+    margin-top: -0.5rem; /* pour rapprocher un peu du h2 si vous le souhaitez */
+    font-size: 1.25rem;  /* taille intermédiaire entre h2 et le texte normal */
+    color: #a2d5f2;      /* même couleur que le h2 si désiré */
+    font-family: 'Playfair Display', serif; /* pour rester cohérent */
+  }
+  
 
 
 /* ----------------------------------------------------
