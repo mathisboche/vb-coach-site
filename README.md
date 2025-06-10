@@ -1,6 +1,6 @@
-# Vlada BOCHE – Coach de Vie | Page de contact
+# Vlada BOCHE – Coach de Vie
 
-Ce dépôt contient le site de contact officiel de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle.
+Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
 
 ## Présentation
 
@@ -8,10 +8,16 @@ Ce site web offre un accès rapide et sécurisé aux moyens de contacter Vlada B
 
 ### Fonctionnalités principales
 
+- Présentation de l'activité de coaching
+- Section "À propos" détaillant le parcours de Vlada
+- Liste complète des services proposés
+- Description de la méthodologie d'accompagnement
+- Témoignages de clients
 - Informations de contact direct (email, téléphone, WhatsApp)
+- Formulaire de contact
 - Liens vers les réseaux sociaux (Facebook, Instagram, LinkedIn)
 - Design responsive adapté à tous les supports
-- Navigation claire et intuitive
+- Navigation claire et intuitive entre l'accueil et la page de contact
 
 ## Technologies utilisées
 
@@ -21,9 +27,16 @@ Ce site web offre un accès rapide et sécurisé aux moyens de contacter Vlada B
 
 ## Structure du projet
 
-- `index.html` — Page principale
+- `index.html` — Page d'accueil
+- `contact.html` — Page de contact
 - `styles.css` — Feuille de style personnalisée
-- `assets/images/` — Images (photo de profil, favicon…)
+- `images/` — Images (photo de profil, favicon…)
+
+## Biographie de Vlada Boche
+
+Vlada Boche est diplômée d'État en psychologie en Ukraine et certifiée en Programmation Neuro‑Linguistique par l'IFPNL. Elle s'est également formée à l'orientation scolaire (méthode SISEM) et au bilan de compétences (Repère). Basée à Montrouge en Île-de-France, elle accompagne depuis plus de cinq ans les personnes en reconversion professionnelle ou en quête de développement personnel.
+
+Ses séances sont proposées en présentiel ou à distance, avec une première consultation à 57&nbsp;€ et un tarif normal de 80&nbsp;€.
 
 ## Confidentialité
 
@@ -35,7 +48,8 @@ Aucune information n’est transmise à des tiers. Les échanges restent stricte
 ## Installation & utilisation
 
 1. Cloner le dépôt ou télécharger les fichiers.
-2. Ouvrir `index.html` dans un navigateur web.
+2. Ouvrir `index.html` dans un navigateur web pour accéder à la page d'accueil.
+3. Utiliser le lien "Contact" pour accéder à la page de contact.
 
 Aucune configuration spécifique n’est requise.
 
