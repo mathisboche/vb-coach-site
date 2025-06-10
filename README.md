@@ -1,47 +1,36 @@
-# Vlada BOCHE – Coach de Vie | Page de contact
+# Vlada BOCHE – Coach de Vie
 
-Ce dépôt contient le site de contact officiel de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle.
+Ce dépôt contient le site officiel **www.vlada.fr** de Vlada Boche, coach professionnelle spécialisée en reconversion et développement personnel. Le site est entièrement réalisé en **HTML** et **CSS** pour garantir un chargement rapide et une compatibilité maximale.
 
 ## Présentation
 
-Ce site web offre un accès rapide et sécurisé aux moyens de contacter Vlada Boche et de suivre son actualité sur les réseaux sociaux professionnels.
+Le site présente la méthode de coaching de Vlada, son parcours et les moyens de la contacter.
 
 ### Fonctionnalités principales
 
-- Informations de contact direct (email, téléphone, WhatsApp)
-- Liens vers les réseaux sociaux (Facebook, Instagram, LinkedIn)
-- Design responsive adapté à tous les supports
-- Navigation claire et intuitive
-
-## Technologies utilisées
-
-- **HTML5**
-- **CSS3**
-- **Font Awesome** (pour les icônes)
+- Description complète de l'activité et du parcours de Vlada
+- Section "À propos" détaillant les formations et certifications
+- Liste de services et approche méthodologique
+- Témoignages de clients
+- Coordonnées directes (email, téléphone, WhatsApp)
+- Formulaire de contact
+- Liens vers les réseaux sociaux (Facebook, Instagram, LinkedIn, TikTok, FIDE)
+- Design responsive et navigation claire entre l'accueil et la page de contact
 
 ## Structure du projet
 
-- `index.html` — Page principale
-- `styles.css` — Feuille de style personnalisée
-- `assets/images/` — Images (photo de profil, favicon…)
+- `index.html` – Page d'accueil
+- `contact.html` – Page de contact
+- `style.css` – Feuille de style principale
+- `images/` – Images utilisées (photo de profil, favicon)
 
-## Confidentialité
+## Biographie de Vlada Boche
 
-La protection de vos données personnelles est une priorité.  
-Aucune donnée personnelle n’est collectée automatiquement via ce site.  
-Les informations de contact (email, téléphone, WhatsApp) sont uniquement fournies pour permettre à l’utilisateur de joindre directement Vlada Boche.  
-Aucune information n’est transmise à des tiers. Les échanges restent strictement confidentiels.
+Vlada Boche est diplômée d'État en psychologie en Ukraine et certifiée en Programmation Neuro‑Linguistique par l'IFPNL. Elle s'est formée à l'orientation scolaire (méthode SISEM) et au bilan de compétences (Repère). Basée à Montrouge (Île‑de‑France), elle accompagne depuis plus de cinq ans les personnes en reconversion professionnelle ou en quête de développement personnel. Ses séances se déroulent en présentiel ou à distance, avec une première consultation à 57 € puis un tarif normal de 80 €.
 
-## Installation & utilisation
+## Utilisation
 
-1. Cloner le dépôt ou télécharger les fichiers.
-2. Ouvrir `index.html` dans un navigateur web.
-
-Aucune configuration spécifique n’est requise.
-
-## Déploiement
-
-Le site peut être hébergé sur toute plateforme statique (GitHub Pages, Netlify, Vercel…).
+Ouvrez simplement `index.html` dans votre navigateur favori pour consulter le site en local.
 
 ## Auteur
 
@@ -51,17 +40,11 @@ Développé par **Mathis Boche** pour le compte de Vlada Boche.
 
 ## Contact professionnel
 
-- **Email :** vlada.boche@yahoo.fr  
-- **Téléphone :** +33 6 18 68 88 43
+- **Email :** vlada.boche@yahoo.fr
+- **Téléphone :** +33 6 18 68 88 43
 
 ---
 
 ## Disclaimer
 
-Ce site est une page de contact informative à destination des clients et partenaires potentiels de Vlada Boche.  
-Toutes les informations présentes sont fournies à titre indicatif et peuvent évoluer.  
-L’utilisation des coordonnées fournies est strictement réservée à des prises de contact professionnelles ou personnelles en lien avec l’activité de coaching.  
-Toute utilisation non autorisée ou diffusion à des fins commerciales, publicitaires ou de démarchage est interdite.
-
----
-
+Toutes les informations présentes sont fournies à titre indicatif et peuvent évoluer. L’utilisation des coordonnées est réservée aux prises de contact en lien avec l’activité de coaching. Toute diffusion commerciale non autorisée est interdite.
