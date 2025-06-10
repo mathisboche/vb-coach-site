@@ -1,5 +1,8 @@
 # Vlada BOCHE – Coach de Vie
 
+
+Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
+
 acnxty-codex/créer-un-site-web-moderne-et-professionnel
 Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
 
@@ -7,8 +10,6 @@ ghunrv-codex/créer-un-site-web-moderne-et-professionnel
 Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
 
 Ce dépôt contient le site officiel de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
-main
-main
 
 ## Présentation
 
@@ -17,19 +18,12 @@ Ce site web offre un accès rapide et sécurisé aux moyens de contacter Vlada B
 ### Fonctionnalités principales
 
 - Présentation de l'activité de coaching
-acnxty-codex/créer-un-site-web-moderne-et-professionnel
 
-ghunrv-codex/créer-un-site-web-moderne-et-professionnel
-main
 - Section "À propos" détaillant le parcours de Vlada
 - Liste complète des services proposés
 - Description de la méthodologie d'accompagnement
 - Témoignages de clients
-acnxty-codex/créer-un-site-web-moderne-et-professionnel
 
-
-main
-main
 - Informations de contact direct (email, téléphone, WhatsApp)
 - Formulaire de contact
 - Liens vers les réseaux sociaux (Facebook, Instagram, LinkedIn)
@@ -48,6 +42,12 @@ main
 - `contact.html` — Page de contact
 - `styles.css` — Feuille de style personnalisée
 - `images/` — Images (photo de profil, favicon…)
+
+## Biographie de Vlada Boche
+
+Vlada Boche est diplômée d'État en psychologie en Ukraine et certifiée en Programmation Neuro‑Linguistique par l'IFPNL. Elle s'est également formée à l'orientation scolaire (méthode SISEM) et au bilan de compétences (Repère). Basée à Montrouge en Île-de-France, elle accompagne depuis plus de cinq ans les personnes en reconversion professionnelle ou en quête de développement personnel.
+
+Ses séances sont proposées en présentiel ou à distance, avec une première consultation à 57&nbsp;€ et un tarif normal de 80&nbsp;€.
 
 ## Confidentialité
 
