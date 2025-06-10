@@ -17,6 +17,18 @@ Le site présente la méthode de coaching de Vlada, son parcours et les moyens d
 - Liens vers les réseaux sociaux (Facebook, Instagram, LinkedIn, TikTok, FIDE)
 - Design responsive et navigation claire entre l'accueil et la page de contact
 
+## Événements et collaborations
+
+- Participation au **Salon Your Future** en tant que coach d'orientation (10 et 11 février)
+- Animation d'ateliers de développement personnel lors d'événements en Île-de-France
+
+## Présence en ligne
+
+- LinkedIn&nbsp;: plus de 180 relations
+- Facebook&nbsp;: profil "Life Coach" centré sur l'accompagnement en période de crise
+- Instagram et TikTok pour partager des actualités et conseils
+- Profil **FIDE** (classement 987)
+
 ## Structure du projet
 
 - `index.html` – Page d'accueil

@@ -109,6 +109,13 @@ section {
     max-width: 600px;
     text-align: left;
 }
+.events-list {
+    list-style: disc;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    max-width: 600px;
+    text-align: left;
+}
 
 /* Titres de section */
 h2 {
