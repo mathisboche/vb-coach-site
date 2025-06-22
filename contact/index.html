@@ -2,101 +2,88 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact - Vlada BOCHE, Coach de Vie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Coach de vie à Paris, Vlada Boche accompagne votre reconversion, vos bilans de compétences et votre développement personnel." />
+  <title>Vlada Boche – Coach de Vie</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
-  <!-- Feuille de style principale -->
+  <!-- Pré-connexion et chargement des polices -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap&text=VladaBoche"
+        rel="stylesheet" />
+
+  <!-- Feuille de style -->
   <link rel="stylesheet" href="/styles.css" />
 
-  <!-- Import de Font Awesome (version 6.x par exemple) -->
-  <script src="https://kit.fontawesome.com/059bae2efb.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome (non-bloquant) -->
+  <script src="https://kit.fontawesome.com/059bae2efb.js" crossorigin="anonymous" defer></script>
 </head>
+
 <body>
-  <!-- En-tête du site -->
-  <header>
-    <img src="/images/vb.jpg" alt="Vlada BOCHE" class="profile-img"/>
-    <h1>Vlada BOCHE</h1>
-    <h2>Coach de Vie</h2>
-    <h3 class="sous-titre">Coach de reconversion</h3>
-    <nav>
-      <ul>
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/contact/" class="active">Contact</a></li>
+  <!-- Lien d’évitement pour la navigation clavier -->
+  <a href="#contenu" class="skip-link">Passer au contenu</a>
+
+<!-- seules les parties différentes de index.html -->
+<header role="banner">
+  <img src="/images/vb.jpg" alt="Portrait de Vlada Boche, coach de vie"
+       class="profile-img" width="150" height="150" loading="lazy" />
+  <h1>Vlada Boche</h1>
+  <p class="baseline">Coach de vie • Spécialiste reconversion</p>
+
+  <nav aria-label="Navigation principale">
+    <ul class="nav-list">
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/contact/" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="contenu">
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <address>
+      <p><i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <a href="mailto:vlada.boche@yahoo.fr">vlada.boche@yahoo.fr</a></p>
+      <p><i class="fa-solid fa-phone" aria-hidden="true"></i>
+        <a href="tel:+33664443538">+33 6 64 44 35 38</a></p>
+      <p><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <a href="https://wa.me/33664443538?text=Bonjour%20Vlada%2C%20j'aimerais%20en%20savoir%20plus%20sur%20vos%20services."
+           target="_blank" rel="noopener">Message WhatsApp</a></p>
+    </address>
+  </section>
+
+  <!-- Infos pratiques -->
+  <section id="infos">
+    <h2>Informations pratiques</h2>
+    <ul class="infos-list">
+      <li><i class="fa-solid fa-clock" aria-hidden="true"></i> Lundi-samedi : 9 h – 20 h</li>
+      <li><i class="fa-solid fa-euro-sign" aria-hidden="true"></i> Première séance OFFERTE, puis 80 €</li>
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Paris — en ligne ou à domicile</li>
+    </ul>
+  </section>
+
+  <!-- Réseaux sociaux (identique à index) -->
+
+    <!-- Réseaux sociaux -->
+    <section id="reseaux" aria-labelledby="titresociaux">
+      <h2 id="titresociaux">Réseaux sociaux</h2>
+      <ul class="social-list">
+        <li><a href="https://facebook.com/profile.php?id=100009659551709" target="_blank" rel="noopener">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
+        <li><a href="https://instagram.com/vlada.boche/" target="_blank" rel="noopener">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        <li><a href="https://linkedin.com/in/vlada-boche/" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
       </ul>
-    </nav>
-  </header>
-
-  <!-- Contenu principal -->
-  <main>
-    <!-- Section de contact direct -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Pour plus d'informations ou pour réserver une session, veuillez me contacter :</p>
-
-      <!-- Email -->
-      <p>
-        <i class="fa-solid fa-envelope"></i>
-        <strong>Email :</strong>
-        <a href="mailto:vlada.boche@yahoo.fr">vlada.boche@yahoo.fr</a>
-      </p>
-      <!-- Téléphone -->
-      <p>
-        <i class="fa-solid fa-phone"></i>
-        <strong>Téléphone :</strong>
-        <a href="tel:+33664443538">+33 6 64 44 35 38</a>
-      </p>
-      <!-- WhatsApp -->
-      <p>
-        <i class="fa-brands fa-whatsapp"></i>
-        <strong>WhatsApp :</strong>
-        <a 
-          href="https://wa.me/33664443538?text=Bonjour%20Vlada%2C%20j%27aimerais%20en%20savoir%20plus%20sur%20vos%20services."
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Cliquez ici
-        </a>
-      </p>
-    </section>
-
-      <section id="infos">
-        <h2>Informations pratiques</h2>
-        <p><i class="fa-solid fa-clock"></i> Disponibilités du lundi au samedi, de 9h à 20h.</p>
-        <p><i class="fa-solid fa-euro-sign"></i> Première séance OFFERTE, tarif normal 80&nbsp;€.</p>
-        <p><i class="fa-solid fa-location-dot"></i> Basée à Paris, séances en visioconférence ou à domicile sur demande.</p>
-      </section>
-
-    <!-- Section Reseaux Sociaux -->
-    <section id="reseaux">
-      <h2>Réseaux Sociaux</h2>
-      <p>Suivez-moi sur :</p>
-      <p>
-        <i class="fa-brands fa-facebook-f"></i>
-        <a href="https://www.facebook.com/profile.php?id=100009659551709" target="_blank" rel="noopener noreferrer">
-          Facebook
-        </a>
-      </p>
-      <p>
-        <i class="fa-brands fa-instagram"></i>
-        <a href="https://www.instagram.com/vlada.boche/" target="_blank" rel="noopener noreferrer">
-          Instagram
-        </a>
-      </p>
-      <p>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <a href="https://www.linkedin.com/in/vlada-boche/?originalSubdomain=fr" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-      </p>
     </section>
   </main>
 
-  <!-- Pied de page -->
-  <footer>
-    <p>&copy; 2025 Vlada BOCHE. Tous droits réservés.</p>
+  <footer role="contentinfo">
+    <small>&copy; 2025 Vlada Boche — Tous droits réservés.</small>
   </footer>
 </body>
 </html>

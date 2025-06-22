@@ -1,273 +1,106 @@
 /* ----------------------------------------------------
-   Import Google Fonts
-------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap');
-
-/* ----------------------------------------------------
-   Reset de base
-------------------------------------------------------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   Variables & typographie
+---------------------------------------------------- */
+:root {
+  --clr-primary: #2a4d69;
+  --clr-accent : #a2d5f2;
+  --clr-bg     : #f0f0f0;
+  --clr-text   : #333;
+  --ff-base    : 'Open Sans', sans-serif;
+  --ff-title   : 'Playfair Display', serif;
 }
 
-/* ----------------------------------------------------
-   Styles de base
-------------------------------------------------------- */
+*,*::before,*::after{box-sizing:border-box}
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f0f0f0; /* gris clair */
-    color: #333;
-    line-height: 1.6;
+  margin:0;
+  font:400 1rem/1.6 var(--ff-base);
+  color:var(--clr-text);
+  background:var(--clr-bg);
+  -webkit-font-smoothing:antialiased;
 }
+
+/* Skip link */
+.skip-link{
+  position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden
+}
+.skip-link:focus{left:1rem;top:1rem;width:auto;height:auto;padding:.5rem 1rem;background:#000;color:#fff;z-index:1000}
 
 /* ----------------------------------------------------
    Header
-------------------------------------------------------- */
-header {
-    background-color: #2a4d69;  /* bleu-gris */
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
+---------------------------------------------------- */
+header{
+  background:var(--clr-primary);
+  color:#fff;
+  text-align:center;
+  padding:2rem 1rem;
 }
-
-header .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+header h1{margin:.75rem 0;font:700 2.25rem var(--ff-title)}
+.baseline{margin-top:-.25rem;font:600 1.125rem var(--ff-base);color:var(--clr-accent)}
+.profile-img{
+  width:150px;height:150px;border-radius:50%;
+  border:4px solid #fff;object-fit:cover;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
 }
-
-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    margin-top: 1rem;
-}
-
-header h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #a2d5f2; /* bleu clair */
-}
-
-/* Navigation principale */
-nav ul {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.25rem 0;
-}
-
-nav a:hover,
-nav a.active {
-    border-bottom: 2px solid #a2d5f2;
-}
-
-/* Exemple de style minimal pour le nouveau sous-titre */
-.sous-titre {
-    /* Pas de bordure et ajustement éventuel du style */
-    border: none;
-    margin-top: -0.5rem; /* pour rapprocher un peu du h2 si vous le souhaitez */
-    font-size: 1.25rem;  /* taille intermédiaire entre h2 et le texte normal */
-    color: #a2d5f2;      /* même couleur que le h2 si désiré */
-    font-family: 'Playfair Display', serif; /* pour rester cohérent */
-  }
-  
-
+.nav-list{display:flex;justify-content:center;gap:2rem;list-style:none;margin:1rem 0 0;padding:0}
+.nav-list a{color:#fff;font-weight:600;text-decoration:none;border-bottom:2px solid transparent;transition:opacity .3s}
+.nav-list a:hover,.nav-list a.active{opacity:.85;border-color:var(--clr-accent)}
 
 /* ----------------------------------------------------
-   Main
-------------------------------------------------------- */
-main {
-    padding: 2rem;
-    background-color: #ffffff;
-}
-
-section {
-    margin-bottom: 3rem;
-}
-
-.services-list {
-    list-style: disc;
-    margin: 0 auto;
-    padding-left: 1.5rem;
-    max-width: 600px;
-    text-align: left;
-}
-
-/* Titres de section */
-h2 {
-    color: #2a4d69;
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #a2d5f2;
-    display: inline-block;
-    padding-bottom: 0.5rem;
-}
-
-/* Paragraphe */
-p {
-    margin: 1rem 0;
-    font-size: 1.125rem;
-}
-
-.cta {
-    text-align: center;
-}
-
-.button {
-    background-color: #2a4d69;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #1e3a57;
-}
-/* Style pour les témoignages */
-blockquote {
-    max-width: 600px;
-    margin: 1rem auto;
-    padding-left: 1rem;
-    border-left: 4px solid #a2d5f2;
-    font-style: italic;
-    color: #555;
+   Typo
+---------------------------------------------------- */
+h2{
+  font:700 2rem var(--ff-title);
+  color:var(--clr-primary);
+  border-bottom:2px solid var(--clr-accent);
+  display:inline-block;
+  margin:0 0 1rem;
+  padding-bottom:.25rem;
 }
 
 /* ----------------------------------------------------
-   Section Contact
-------------------------------------------------------- */
-#contact {
-    text-align: center;
+   Main sections
+---------------------------------------------------- */
+main{padding:2rem;max-width:900px;margin:auto;background:#fff}
+section{margin-bottom:3rem}
+.cta{text-align:center}
+.button{
+  display:inline-block;background:var(--clr-primary);color:#fff;
+  padding:.75rem 1.5rem;border-radius:6px;font-weight:700;
+  text-decoration:none;transition:background .25s;
 }
-#contact a {
-    color: #2a4d69;
-    text-decoration: none;
-    font-weight: 600;
-}
-#contact a:hover {
-    text-decoration: underline;
+.button:hover{background:#1e3a57}
+
+/* Lists */
+.services-list,.infos-list,.social-list{list-style:none;margin:0 auto;padding-left:1.25rem;max-width:600px}
+.services-list li,.infos-list li{position:relative;padding-left:.75rem}
+.services-list li::before,.infos-list li::before{
+  content:"•";position:absolute;left:0;color:var(--clr-accent);font-size:1.25rem;line-height:1
 }
 
-/* Petit ajustement pour les icônes dans #contact */
-#contact i,
-#infos i {
-    margin-right: 0.5rem;
-    color: #2a4d69;
-}
+/* Social list (inline icons) */
+.social-list{display:flex;flex-direction:column;gap:.5rem;text-align:left;padding:0}
+.social-list a{color:var(--clr-primary);text-decoration:none;font-weight:600}
+.social-list a:hover{text-decoration:underline}
+.social-list i{margin-right:.5rem;color:var(--clr-primary)}
 
-/* ----------------------------------------------------
-   Formulaire
-------------------------------------------------------- */
-#formulaire {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-form label {
-    margin-top: 1rem;
-    font-weight: bold;
-}
-
-form input, 
-form textarea {
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    margin-top: 1rem;
-    padding: 0.75rem;
-    font-size: 1rem;
-    background-color: #2a4d69;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-form button:hover {
-    background-color: #1e3a57;
-}
-
-/* ----------------------------------------------------
-   Réseaux Sociaux
-------------------------------------------------------- */
-#reseaux {
-    text-align: center;
-}
-
-#reseaux i {
-    margin-right: 0.5rem;
-    color: #2a4d69; /* Même couleur que les titres pour rester cohérent */
-}
-
-/* Liens réseaux sociaux identiques à #contact */
-#reseaux a {
-    color: #2a4d69;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-#reseaux a:hover {
-    text-decoration: underline;
+blockquote{
+  margin:1rem auto;max-width:600px;padding-left:1rem;
+  border-left:4px solid var(--clr-accent);font-style:italic;color:#555
 }
 
 /* ----------------------------------------------------
    Footer
-------------------------------------------------------- */
-footer {
-    background-color: #2a4d69;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.875rem;
+---------------------------------------------------- */
+footer{
+  background:var(--clr-primary);color:#fff;text-align:center;
+  padding:1rem;font-size:.875rem
 }
 
 /* ----------------------------------------------------
-   Media Queries
-------------------------------------------------------- */
-@media (min-width: 768px) {
-    header h1 {
-        font-size: 3rem;
-    }
-
-    header h2 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 2.5rem;
-    }
-
-    p {
-        font-size: 1.125rem;
-    }
+   Media queries
+---------------------------------------------------- */
+@media (min-width:48em){
+  header h1{font-size:3rem}
+  h2{font-size:2.5rem}
 }
