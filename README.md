@@ -3,14 +3,6 @@
 
 Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
 
-acnxty-codex/créer-un-site-web-moderne-et-professionnel
-Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
-
-ghunrv-codex/créer-un-site-web-moderne-et-professionnel
-Ce dépôt contient le site officiel (www.vlada.fr) de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
-
-Ce dépôt contient le site officiel de **Vlada BOCHE**, coach de vie spécialisée en accompagnement et reconversion professionnelle. Il comprend une page d'accueil professionnelle et une page de contact dédiée.
-
 ## Présentation
 
 Ce site web offre un accès rapide et sécurisé aux moyens de contacter Vlada Boche et de suivre son actualité sur les réseaux sociaux professionnels.
