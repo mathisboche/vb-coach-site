@@ -3,93 +3,111 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-        content="Coach de vie à Paris, Vlada Boche accompagne votre reconversion, vos bilans de compétences et votre développement personnel." />
-  <title>Vlada Boche – Coach de Vie</title>
+  <meta name="description" content="Coaching de vie et reconversion professionnelle à Paris – réinventez votre carrière avec Vlada Boche, psychologue diplômée et coach certifiée.">
+  <title>Vlada Boche – Coach professionnelle & personnelle</title>
 
   <!-- Favicon -->
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
-  <!-- Pré-connexion et chargement des polices -->
+  <!-- Google Fonts (pré‑connexion) -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap&text=VladaBoche"
-        rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
 
-  <!-- Feuille de style -->
+  <!-- Styles -->
   <link rel="stylesheet" href="/styles.css" />
-
-  <!-- Font Awesome (non-bloquant) -->
   <script src="https://kit.fontawesome.com/059bae2efb.js" crossorigin="anonymous" defer></script>
 </head>
-
 <body>
-  <!-- Lien d’évitement pour la navigation clavier -->
-  <a href="#contenu" class="skip-link">Passer au contenu</a>
+  <a href="#main" class="skip-link">Passer au contenu principal</a>
 
-  <header role="banner">
-    <img src="/images/vb.jpg"
-         alt="Portrait de Vlada Boche, coach de vie"
-         class="profile-img" width="150" height="150" loading="lazy" />
-    <h1>Vlada Boche</h1>
-    <p class="baseline">Coach de vie • Spécialiste reconversion</p>
-
-    <nav aria-label="Navigation principale">
-      <ul class="nav-list">
-        <li><a href="/" class="active">Accueil</a></li>
-        <li><a href="/contact/">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Barre de navigation & identité -->
+  <header class="site-header" role="banner">
+    <div class="container header-flex">
+      <img src="/images/vb.jpg" alt="Portrait de Vlada Boche" width="120" height="120" class="avatar" loading="lazy" />
+      <div>
+        <h1 class="site-title">Vlada Boche</h1>
+        <p class="tagline">Coach professionnelle & personnelle</p>
+      </div>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="/" class="active">Accueil</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main id="contenu">
-    <!-- Présentation -->
-    <section id="presentation">
-      <h2>Bienvenue</h2>
-      <p>Je vous accompagne dans votre évolution professionnelle et personnelle pour atteindre vos objectifs et révéler votre potentiel.</p>
-      <p class="cta"><a href="/contact/" class="button">Prendre rendez-vous</a></p>
+  <main id="main">
+    <!-- Hero / valeur proposition -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h2>Donnez un nouvel élan à votre vie professionnelle</h2>
+          <p>Reconversion, bilan de compétences ou transition de carrière : je vous guide à chaque étape pour transformer vos ambitions en plan d’action concret.</p>
+          <a href="/contact/" class="button primary">Réservez votre séance découverte offerte</a>
+        </div>
+      </div>
     </section>
 
     <!-- À propos -->
-    <section id="about">
-      <h2>À propos</h2>
-      <p>Psychologue diplômée (Ukraine) et <abbr title="Programmation Neuro-Linguistique">PNL</abbr> certifiée (IFPNL), formée au SISEM et aux bilans de compétences Repère, j’exerce depuis plus de dix ans à Paris (en présentiel ou à distance).</p>
+    <section id="about" class="container section">
+      <h2>Qui suis‑je&nbsp;?</h2>
+      <p><strong>Psychologue diplômée en Ukraine, coach certifiée IFPNL & Repère,</strong> j’accompagne depuis plus de <strong>10 ans</strong> les personnes en quête de sens et d’épanouissement. +300 clients ont déjà franchi un cap grâce à un accompagnement alliant psychologie, PNL et outils de coaching modernes.</p>
     </section>
 
     <!-- Services -->
-    <section id="services">
-      <h2>Mes services</h2>
-      <ul class="services-list">
-        <li>Coaching de reconversion professionnelle</li>
-        <li>Orientation scolaire et professionnelle</li>
-        <li>Bilan de compétences</li>
-        <li>Ateliers de développement personnel</li>
-        <li>Accompagnement (deuil, rupture, burn-out)</li>
-        <li>Suivi personnalisé &amp; bienveillant</li>
-      </ul>
+    <section id="services" class="section grey-bg">
+      <div class="container">
+        <h2>Mes services</h2>
+        <ul class="cards-grid">
+          <li class="card">
+            <h3>Coaching de reconversion</h3>
+            <p>Clarifiez votre projet professionnel et bâtissez un plan d’actions réaliste.</p>
+          </li>
+          <li class="card">
+            <h3>Bilan de compétences</h3>
+            <p>Identifiez vos forces, valeurs et motivations pour booster votre carrière.</p>
+          </li>
+          <li class="card">
+            <h3>Orientation scolaire</h3>
+            <p>Aidez votre ado à choisir des études alignées avec ses talents (méthode SISEM).</p>
+          </li>
+          <li class="card">
+            <h3>Développement personnel</h3>
+            <p>Gagnez en confiance, gérez le stress et retrouvez un équilibre durable.</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <!-- Approche -->
-    <section id="approche">
-      <h2>Mon approche</h2>
-      <p>Une écoute active et des outils de développement personnel éprouvés pour lever vos blocages et atteindre vos objectifs.</p>
+    <!-- Témoignages -->
+    <section id="testimonials" class="container section">
+      <h2>Ils·elles en parlent mieux que moi</h2>
+      <blockquote>
+        « Grâce au coaching de Vlada, j’ai osé quitter la finance pour lancer ma startup. Six mois plus tard, je vis enfin de ma passion ! »<br><cite>— Caroline, 32 ans</cite>
+      </blockquote>
+      <blockquote>
+        « Une écoute bienveillante et des outils concrets ; chaque séance est un vrai pas en avant. »<br><cite>— Mathieu, 45 ans</cite>
+      </blockquote>
     </section>
 
-    <!-- Réseaux sociaux -->
-    <section id="reseaux" aria-labelledby="titresociaux">
-      <h2 id="titresociaux">Réseaux sociaux</h2>
-      <ul class="social-list">
-        <li><a href="https://facebook.com/profile.php?id=100009659551709" target="_blank" rel="noopener">
-          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
-        <li><a href="https://instagram.com/vlada.boche/" target="_blank" rel="noopener">
-          <i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-        <li><a href="https://linkedin.com/in/vlada-boche/" target="_blank" rel="noopener">
-          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
-      </ul>
+    <!-- Réseaux -->
+    <section id="reseaux" class="section grey-bg">
+      <div class="container">
+        <h2>Suivez‑moi</h2>
+        <ul class="social-list">
+          <li><a href="https://facebook.com/profile.php?id=100009659551709" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
+          <li><a href="https://instagram.com/vlada.boche/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          <li><a href="https://linkedin.com/in/vlada-boche/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <footer role="contentinfo">
-    <small>&copy; 2025 Vlada Boche — Tous droits réservés.</small>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Vlada Boche – Tous droits réservés.</p>
+    </div>
   </footer>
 </body>
 </html>
